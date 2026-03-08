@@ -234,20 +234,6 @@ body {
   line-height: 1.7;
 }
 
-.about-skills {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 24px;
-}
-
-.skill-group h3 {
-  font-size: 0.8rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  color: var(--color-text-muted);
-  margin-bottom: 12px;
-}
 
 /* ── Tags ── */
 .tags {
