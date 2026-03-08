@@ -297,6 +297,15 @@ body {
   box-shadow: var(--shadow-sm);
 }
 
+.project-screenshot {
+  width: 100%;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--color-border);
+  margin-bottom: 20px;
+  object-fit: cover;
+  max-height: 360px;
+}
+
 .project-header {
   display: flex;
   justify-content: space-between;
